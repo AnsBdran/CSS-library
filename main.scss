@@ -1,1 +1,2 @@
-@use "helpers/functions", "helpers/vars", "helpers/mixins", "helpers/reset";
+// @import "helpers/functions", "helpers/vars", "helpers/mixins", "helpers/reset";
+@use "./helpers" as *;
