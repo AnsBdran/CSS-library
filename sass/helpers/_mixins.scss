@@ -40,3 +40,22 @@
     @content
   }
 }
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin btn($width: 5rem, $height: 4rem, $color: $alt-bg) {
+  width: $width;
+  height: $height;
+  background-color: $color;
+  color: $alt-text;
+  font-size: 1.1em;
+  &:hover {
+    background: none;
+    color: $text;
+  }
+}
