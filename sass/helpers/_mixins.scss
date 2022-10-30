@@ -59,3 +59,11 @@
     color: $text;
   }
 }
+
+@mixin flex($jus: space-between, $align: center, $dir: column, $gap: 0) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $jus;
+  align-items: $align;
+  gap: $gap;
+}
